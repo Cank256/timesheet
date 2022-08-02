@@ -29,13 +29,12 @@
                                 <h5 class="title">{{ __(auth()->user()->name)}}</h5>
                             </a>
                             <p class="description">
-                            @ {{ __(auth()->user()->name)}}
+                                {{ __(auth()->user()->email)}}
                             </p>
                         </div>
                         <p class="description text-center">
-                            {{ __('I like the way you work it') }}
-                            <br> {{ __('No diggity') }}
-                            <br> {{ __('I wanna bag it up') }}
+                            <strong>{{ __('LGIHE') }} - {{ __('ICT Support') }}</strong>
+                            <br>( {{ __('ALIVE, ECHIDNA') }} )
                         </p>
                     </div>
                     <div class="card-footer">
@@ -43,21 +42,21 @@
                         <div class="button-container">
                             <div class="row">
                                 <div class="col-lg-3 col-md-6 col-6 ml-auto">
-                                    <h5>{{ __('12') }}
+                                    <h5>{{ __('2') }}
                                         <br>
-                                        <small>{{ __('Files') }}</small>
+                                        <small>{{ __('Present') }}</small>
                                     </h5>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-6 ml-auto mr-auto">
-                                    <h5>{{ __('2GB') }}
+                                    <h5>{{ __('200') }}
                                         <br>
-                                        <small>{{ __('Used') }}</small>
+                                        <small>{{ __('Total') }}</small>
                                     </h5>
                                 </div>
                                 <div class="col-lg-3 mr-auto">
-                                    <h5>{{ __('24,6$') }}
+                                    <h5>{{ __('14') }}
                                         <br>
-                                        <small>{{ __('Spent') }}</small>
+                                        <small>{{ __('Leaves') }}</small>
                                     </h5>
                                 </div>
                             </div>
@@ -82,7 +81,7 @@
                                         {{ __('DJ Khaled') }}
                                         <br />
                                         <span class="text-muted">
-                                            <small>{{ __('Offline') }}</small>
+                                            <small>{{ __('ALiVE - PM') }}</small>
                                         </span>
                                     </div>
                                     <div class="col-md-3 col-3 text-right">
@@ -102,8 +101,8 @@
                                     <div class="col-md-7 col-7">
                                             {{ __('Creative Tim') }}
                                         <br />
-                                        <span class="text-success">
-                                            <small>{{ __('Available') }}</small>
+                                        <span class="text-muted">
+                                            <small>{{ __('ECHIDNA - PM') }}</small>
                                         </span>
                                     </div>
                                     <div class="col-md-3 col-3 text-right">
@@ -123,8 +122,8 @@
                                     <div class="col-ms-7 col-7">
                                         {{ __('Flume') }}
                                         <br />
-                                        <span class="text-danger">
-                                            <small>{{ __('Busy') }}</small>
+                                        <span class="text-muted">
+                                            <small>{{ __('ALiVE - Officer') }}</small>
                                         </span>
                                     </div>
                                     <div class="col-md-3 col-3 text-right">
