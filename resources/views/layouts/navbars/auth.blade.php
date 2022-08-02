@@ -2,11 +2,11 @@
     <div class="logo">
         <a href="http://www.creative-tim.com" class="simple-text logo-mini">
             <div class="logo-image-small">
-                <img src="{{ asset('paper') }}/img/logo-small.png">
+                <!-- <img src="{{ asset('paper') }}/img/logo-small.png"> -->
             </div>
         </a>
-        <a href="http://www.creative-tim.com" class="simple-text logo-normal">
-            {{ __('Creative Tim') }}
+        <a href="#" class="simple-text logo-normal">
+            {{ __('Time Sheet MS') }}
         </a>
     </div>
     <div class="sidebar-wrapper">

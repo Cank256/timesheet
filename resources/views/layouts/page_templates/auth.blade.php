@@ -3,7 +3,7 @@
     @include('layouts.navbars.auth')
 
     <div class="main-panel">
-        @include('layouts.navbars.navs.auth')
+        @include('layouts.navbars.top_navs.auth')
         @yield('content')
         @include('layouts.footer')
     </div>
